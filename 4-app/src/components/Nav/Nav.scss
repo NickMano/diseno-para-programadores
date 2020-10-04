@@ -20,9 +20,7 @@
   }
 
   &-button {
-    @include for-size(l) {
-      display: none;
-    }
+    grid-column: 12;
   }
 
   &-list {
