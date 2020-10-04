@@ -1,5 +1,4 @@
 import React from 'react';
-import Cta from '../../components/Cta/Cta';
 import Icon from '../../components/Icon/Icon';
 import './Hero.scss';
 
@@ -7,8 +6,7 @@ function Hero(props) {
   const content = props.content;
   const cssClass = 'Hero';
   const uiConfig = {
-    'cta': 'secondary',
-    'icon': 'terciary'
+    'icon': 'cuaternary'
   }
 
   return (
@@ -22,9 +20,6 @@ function Hero(props) {
       <h2 className={`${cssClass}-subtitle`}>
         {content.subtitle}
       </h2>
-      <div className={`${cssClass}-cta`}>
-        <Cta type={uiConfig.cta} label={content.cta} />
-      </div>
     </div>
   );
 }

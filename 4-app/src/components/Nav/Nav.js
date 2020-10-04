@@ -6,21 +6,9 @@ function Nav(props) {
   const content = props.content;
   const cssClass = 'Nav';
   const uiConfig = {
-    cta: 'cuaternary',
+    cta: 'terciary',
     icon: 'secondary'
   }
-
-  const List = (() => {
-    return content.items.map((item, index) => {
-      return (
-        <li key={index} className={`${cssClass}-item`}>
-          <a href={item.url}>
-            {item.label}
-          </a>
-        </li>
-      )
-    })
-  })();
 
   return (
     <div className={`${cssClass} ${cssClass}--${props.type}`}>
@@ -28,9 +16,6 @@ function Nav(props) {
         <div className={`${cssClass}-button`}>
           <Cta type={uiConfig.cta} icon={content.icon} iconType={uiConfig.icon} />
         </div>
-        <ul className={`${cssClass}-list`}>
-          {List}
-        </ul>
       </div>
     </div>
   );
