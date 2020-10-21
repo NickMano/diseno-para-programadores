@@ -1,7 +1,3 @@
-# Diseño para programadores.
-Bienvenido al curso de diseño para programadores. En este repositorio
-encontrarás el material del curso diseño para programadores.
-
 ## Brief.
 En la carpeta brief encontrarás el ejemplo de brief que vimos en clase,
 úsalo como inspiración para crear el brief de tu proyecto.
