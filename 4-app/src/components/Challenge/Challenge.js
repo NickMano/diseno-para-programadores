@@ -6,7 +6,7 @@ function Challenge(props) {
   const content = props.content;
   const cssClass = 'Challenge';
   const uiConfig = {
-    'cta': 'cuaternary',
+    'cta': 'terciary',
     'icon': 'primary'
   }
 

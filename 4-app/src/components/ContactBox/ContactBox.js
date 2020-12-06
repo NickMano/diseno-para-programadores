@@ -1,17 +1,19 @@
 import React from 'react';
 import './ContactBox.scss';
+import Icon from '../../components/Icon/Icon';
 
 function ContactBox(props) {
   const content = props.content;
   const cssClass = 'ContactBox';
+  const uiConfig = {
+    'icon': 'primary'
+  }
 
   const List = (() => {
     return content.map((item, index) => {
       return (
         <li key={index} className={`${cssClass}-block`}>
-          <h4 className="h4--dark">
-            {item.title}
-          </h4>
+          {item.icon && <Icon icon={item.icon} type={uiConfig.iconType} />}
           <p className={`${cssClass}-description`}>
             {item.subtitle}
           </p>

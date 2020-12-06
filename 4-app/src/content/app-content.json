@@ -1,28 +1,6 @@
 {
   "nav": {
-    "icon": "nav",
-    "items": [
-      {
-        "label": "Home",
-        "url": "/"
-      },
-      {
-        "label": "Nosotros",
-        "url": "/"
-      },
-      {
-        "label": "Menú",
-        "url": "/"
-      },
-      {
-        "label": "Promociones",
-        "url": "/"
-      }, 
-      {
-        "label": "Contacto",
-        "url": "/"
-      }
-    ]
+    "icon": "nav"
   },
   "hero": {
     "title": "Steam",
@@ -51,18 +29,28 @@
     ],
     "products": [
       {
-        "title": "Steam sencilla",
-        "subtitle": "1 lb de res con queso, verdura y pan.",
+        "title": "Mother of Bacon",
+        "subtitle": "Hamburguesa con 2 carnes 100% vacuna de 4 onzas, bacon, queso cheddar, kétchup y mayonesa en pan brioche.",
         "price": "$10.00"
       },
       {
-        "title": "Steam doble",
-        "subtitle": "1 lb de res con queso, verdura y pan.",
+        "title": "Steam especial",
+        "subtitle": "Hamburguesa de carne 100% vacuna de 4 onzas, queso cheddar en feta, lechuga, tomate, cebolla, pepino, ketchup y mayonesa en pan brioche.",
+        "price": "$10.00"
+      },
+      {
+        "title": "Steam Cheddar",
+        "subtitle": "Hamburguesa de carne 100% vacuna de 4 oz., bacon, queso cheddar fundido, cebolla caramelizada, queso cheddar en feta, tomate y lechuga en pan brioche",
+        "price": "$10.00"
+      },
+      {
+        "title": "Steam simple",
+        "subtitle": "Carne al vapor, pan, salsa ciboulette, ketchup, cebolla, tomate, pepinos y lechuga.",
         "price": "$15.00"
       },
       {
-        "title": "Steam especial",
-        "subtitle": "1 lb de res, tocineta, queso, verdura y pan.",
+        "title": "Steam doble",
+        "subtitle": "Doble carne al vapor, pan, ketchup, mostaza, panceta y queso cheddar.",
         "price": "$20.00"
       }
     ]
@@ -86,12 +74,16 @@
     "title": "Contáctanos.",
     "items": [
       {
-        "title": "Teléfono",
+        "icon": "phone",
         "subtitle": "2338617"
       },
       {
-        "title": "Dirección",
+        "icon": "marker",
         "subtitle": "cra 11 # 10 Sur"
+      },
+      {
+        "icon": "clock",
+        "subtitle": "Lunes a Domingos 12:00 a 23:00hs."
       }
     ]
   },

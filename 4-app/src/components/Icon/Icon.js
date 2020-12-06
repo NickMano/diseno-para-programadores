@@ -8,6 +8,10 @@ import lightHamburger from '../../images/light-hamburger.svg';
 import nav from '../../images/nav.svg';
 import soda from '../../images/soda.svg';
 import tiktok from '../../images/tiktok.svg';
+import marker from '../../images/marker.png';
+import phone from '../../images/phone.png';
+import clock from '../../images/clock.png';
+
 import './Icon.scss';
 
 function Icon(props) {
@@ -21,7 +25,10 @@ function Icon(props) {
     'soda': soda,
     'fries': fries,
     'iceCream': iceCream,
-    'nav': nav
+    'nav': nav,
+    'marker': marker,
+    'phone': phone,
+    'clock': clock,
   }
 
   return (

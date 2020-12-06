@@ -21,40 +21,6 @@
 
   &-button {
     grid-column: 12;
-  }
-
-  &-list {
-    display: none;
-    grid-column: 1/-1;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-
-    @include for-size(l) {
-      display: flex;
-    }
-  }
-
-  &-item {
-    font-family: $font-primary;
-    font-size: $font-size-small;
-    font-weight: 300;
-    line-height: 2;
-    margin-right: $padding-small;
-    transition: transform 0.4s ease-in-out;
-
-    &:active,
-    &:focus,
-    &:hover {
-      transform: translateY(-5px);
-    }
-
-    &:first-child {
-      border-bottom: 3px solid $color-primary;
-    }
-
-    &:last-child {
-      margin-right: 0;
-    }
+    justify-self: end;
   }
 }
